@@ -113,7 +113,7 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="group flex items-center gap-3 text-base font-bold py-4 px-5 text-[var(--text-primary)] hover:text-[var(--secondary)] transition-all duration-300 rounded-xl hover:bg-[var(--secondary)]/10"
+                  className="group flex items-center gap-3 text-base font-bold py-4 px-5 text-white hover:text-[var(--secondary)] transition-all duration-300 rounded-xl hover:bg-[var(--secondary)]/10"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--secondary)] group-hover:scale-150 transition-transform" />
