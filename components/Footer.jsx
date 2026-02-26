@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { company } from '@/data/company';
 
@@ -29,31 +30,31 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a 
+                <Link 
                   href={isEnglish ? '/en' : '/'} 
                   className="group flex items-center gap-3 text-white font-bold hover:text-[var(--secondary)] transition-colors duration-300 text-lg"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--secondary)]" />
                   <span>{isEnglish ? 'Home' : 'الرئيسية'}</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a 
+                <Link 
                   href={isEnglish ? '/en#brands' : '/#brands'} 
                   className="group flex items-center gap-3 text-white font-bold hover:text-[var(--secondary)] transition-colors duration-300 text-lg"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--secondary)]" />
                   <span>{isEnglish ? 'Brands' : 'علاماتنا التجارية'}</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a 
+                <Link 
                   href={isEnglish ? '/en#about' : '/#about'} 
                   className="group flex items-center gap-3 text-white font-bold hover:text-[var(--secondary)] transition-colors duration-300 text-lg"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--secondary)]" />
                   <span>{isEnglish ? 'About Us' : 'من نحن'}</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
