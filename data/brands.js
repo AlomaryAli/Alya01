@@ -13,7 +13,7 @@ export const brands = [
     logo: "/images/by-lj-logo.png",
     theme: {
       primary: "#111111",
-      secondary: "#C5A880",
+      secondary: "#FFD700",
       accent: "#F5F5F5",
       font: "Tajawal"
     },
