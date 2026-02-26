@@ -28,7 +28,7 @@ export default function HomePage() {
       <section id="brands" className="section bg-black text-white py-24">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6">علاماتنا التجارية</h2>
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6" style={{color: '#FFD700'}}>علاماتنا التجارية</h2>
             <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent rounded-full mx-auto mb-8" />
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               مجموعة من العلامات التجارية المتميزة في مختلف القطاعات، كل واحدة تمتلك هويتها الفريدة ورؤيتها الخاصة
@@ -50,7 +50,7 @@ export default function HomePage() {
       <section id="about" className="section bg-neutral-950 text-white py-24">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6">من نحن</h2>
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6" style={{color: '#FFD700'}}>من نحن</h2>
             <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent rounded-full mx-auto" />
           </div>
 
@@ -88,7 +88,7 @@ export default function HomePage() {
 
           {/* All Values Grid */}
           <div className="pt-16 border-t border-gray-800">
-            <h3 className="text-4xl font-black text-center mb-12">جميع قيمنا</h3>
+            <h3 className="text-4xl font-black text-center mb-12" style={{color: '#FFD700'}}>جميع قيمنا</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {company.values.map((value, index) => (
                 <div 
@@ -138,7 +138,7 @@ export default function HomePage() {
       {/* Contact Section */}
       <section className="section bg-neutral-950 text-white py-24">
         <div className="container-custom text-center">
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6">تواصل معنا</h2>
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6" style={{color: '#FFD700'}}>تواصل معنا</h2>
           <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent rounded-full mx-auto mb-8" />
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12">
             لأي استفسارات أو اقتراحات، نحن هنا للاستماع إليك
