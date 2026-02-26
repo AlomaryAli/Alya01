@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import Hero from '@/components/Hero';
 import SectionBlock from '@/components/SectionBlock';
 import { getBrandBySlug, getAllBrandSlugs } from '@/data/brands';
@@ -134,7 +135,7 @@ export default function BrandPage({ params }) {
               </a>
             )}
             
-            <a 
+            <Link 
               href="/"
               className="btn-outline inline-flex"
             >
@@ -142,7 +143,7 @@ export default function BrandPage({ params }) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               <span>العودة للرئيسية</span>
-            </a>
+            </Link>
           </div>
 
           {/* Social Links */}
