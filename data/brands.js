@@ -26,7 +26,7 @@ export const brands = [
   },
   {
     id: 2,
-    name: "لذة السبايسي",
+    name: "لذة سبايسي",
     nameEn: "Lathat Spicy",
     slug: "lathat-spicy",
     category: "صوصات ومنتجات غذائية",
