@@ -89,11 +89,11 @@ export default function HomePage() {
           {/* All Values Grid */}
           <div className="pt-16 border-t border-gray-800">
             <h3 className="text-4xl font-black text-center mb-12" style={{color: '#FFD700'}}>جميع قيمنا</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="flex flex-wrap justify-center gap-6">
               {company.values.map((value, index) => (
                 <div 
                   key={index} 
-                  className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl border border-gray-800 hover:border-[#FFD700] transition-all duration-300 group"
+                  className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl border border-gray-800 hover:border-[#FFD700] transition-all duration-300 group w-full sm:w-[calc(50%-12px)] lg:w-[280px]"
                 >
                   <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
                     {value.icon}
