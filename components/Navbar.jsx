@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { company } from '@/data/company';
@@ -53,22 +52,13 @@ export default function Navbar() {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-20 md:h-24">
-          {/* Logo */}
+          {/* Logo - Company Name */}
           <Link 
             href="/" 
             className="group flex flex-col items-center justify-center transition-all duration-300 h-full"
           >
-            <div className="flex flex-col items-center justify-center">
-              <div className="relative w-20 h-20 md:w-24 md:h-24 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3">
-                <Image
-                  src="/images/alya-logo.png"
-                  alt={company.nameAr || company.name}
-                  width={96}
-                  height={96}
-                  className="object-contain"
-                  priority
-                />
-              </div>
+            <div className="text-2xl md:text-3xl font-black transition-all duration-300 group-hover:scale-110" style={{color: '#D4AF37'}}>
+              Alya The Future
             </div>
           </Link>
 
